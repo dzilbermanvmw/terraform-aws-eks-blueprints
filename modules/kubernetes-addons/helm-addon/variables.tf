@@ -24,7 +24,9 @@ variable "manage_via_gitops" {
 variable "irsa_iam_role_name" {
   description = "IAM role name for IRSA"
   type        = string
-  default     = ""
+  #DZ: set defaul to a shorter name temporarily
+  #default     = ""
+  default      = "eks-new-vpc-observ"
 }
 
 variable "irsa_config" {
