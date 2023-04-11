@@ -41,7 +41,9 @@ variable "irsa_iam_policies" {
 variable "irsa_iam_role_name" {
   type        = string
   description = "IAM role name for IRSA"
-  default     = ""
+  #DZ: temp change to shortne a role name for observability
+  #default     = ""
+  default      = "eks-cluster-vpc-observ"
 }
 
 variable "irsa_iam_role_path" {
