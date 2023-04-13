@@ -26,7 +26,7 @@ variable "irsa_iam_role_name" {
   type        = string
   #DZ: set defaul to a shorter name temporarily
   #default     = ""
-  default      = "eks-new-vpc-observ"
+  default      = "hub-cluster-dz-observ"
 }
 
 variable "irsa_config" {
