@@ -43,7 +43,7 @@ variable "irsa_iam_role_name" {
   description = "IAM role name for IRSA"
   #DZ: temp change to shortne a role name for observability
   #default     = ""
-  default      = "eks-cluster-vpc-observ"
+  default      = "spark-cluster-dz-observ"
 }
 
 variable "irsa_iam_role_path" {
