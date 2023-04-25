@@ -26,7 +26,7 @@ variable "irsa_iam_role_name" {
   type        = string
   #DZ: set defaul to a shorter name temporarily
   #default     = ""
-  default      = "hub-cluster-dz-observ"
+  default      = "spark-cluster-dz-observ"
 }
 
 variable "irsa_config" {
